@@ -4,7 +4,7 @@
   "description": "NuxtJS Bulma module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,12 @@
   "homepage": "https://github.com/Qonfucius/nuxt-bulma#readme",
   "dependencies": {
     "bulma": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
