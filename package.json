@@ -1,5 +1,5 @@
 {
-  "name": "@qonfucius/nuxt-bulma",
+  "name": "qonfucius-nuxt-bulma",
   "version": "0.0.1",
   "description": "NuxtJS Bulma module",
   "main": "index.js",
