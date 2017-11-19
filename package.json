@@ -1,6 +1,6 @@
 {
   "name": "qonfucius-nuxt-bulma",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NuxtJS Bulma module",
   "main": "index.js",
   "scripts": {
@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/Qonfucius/nuxt-bulma#readme",
   "dependencies": {
-    "bulma": "^0.5.3"
+    "bulma": "^0.6.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.7.2",
     "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-html": "^4.0.0",
     "eslint-plugin-import": "^2.7.0"
   }
 }
