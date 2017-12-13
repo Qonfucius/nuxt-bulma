@@ -3,8 +3,8 @@ module.exports = function nuxtBulma({ css = true, postcss = true } = {}) {
     this.options.css.push('bulma/css/bulma.css');
   }
   if (postcss) {
-    Object.assign(
-      this.options.build,
+    this.options.build = Object.assign(
+      this.options.build || {},
       {
         postcss: {
           plugins: {
